@@ -131,25 +131,6 @@ function App() {
               </button>
             </div>
 
-            <div className='w-screen flex justify-center lg:w-[100%]'>
-              <button type="button"
-                onClick={() => { window.open("https://replit.com/@Karthik-R-Gowda", "_blank"); }}
-                className="h-12 w-[70%] m-4 inline-flex items-center justify-center gap-4 text-white bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-yellow-200 via-red-500 to-fuchsia-500 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-red-400 shadow-lg shadow-red-500/50 font-medium rounded-lg text-sm">
-                <img src={replit} alt="P" className='h-[20px] w-[20px]' />
-                Replit
-              </button>
-            </div>
-
-            <div className='w-screen flex justify-center lg:w-[100%]'>
-              <button type="button"
-                onClick={() => { window.open("https://drive.google.com/file/d/14PmV-X-qTj5ZptcBfDYgs2BixPIH7Clw/view?usp=drivesdk", "_blank"); }}
-                className="h-12 w-[70%] m-4 inline-flex items-center justify-center gap-4 text-white bg-gradient-to-bl from-indigo-900 via-indigo-400 to-indigo-900 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-indigo-400 shadow-lg shadow-indigo-500/50 font-medium rounded-lg text-sm">
-                <img src={discord} alt="P" className='h-[20px] w-[20px]' />
-                Discord
-              </button>
-            </div>
-          </div>
-
           <div className=' h-[5.3%] bg-bodya flex justify-center items-center text-xs text-white sm:hidden md:hidden lg:hidden'>
           Copyrights © 2023 Karthik R | All Rights Reserved
         </div>
